@@ -1,0 +1,22 @@
+.experiencia{
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    color: var(--text-color);
+    background-color: var(--background-color-2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.experiencia p, ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linkcolor {
+    color: var(--link-color);
+}
+
+h2{
+    font-size: 32px;
+}

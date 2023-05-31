@@ -1,0 +1,48 @@
+/*Declaramos los colores como variables para que podamos
+cambiar el color que queramos sin modificar cada color en el codigo*/
+:root{
+    --theme-color: #fbfbfb;
+    --text-color: #0f0f0f;
+    --text-color-inverse: #fbfbfb;
+    --shadow-color: #0f0f0f;
+    --mobile-color:  #3a4460;
+    --text-button-color: #fbfbfb;
+    --background-button-color: #af599e;
+    --background-color-2: rgba(175, 89, 158, 0.3);
+    --mobile-text-color: #f7c331;
+    --link-color: rgb(33, 33, 158);
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    line-height: 1.2;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: var(--theme-color);
+    font-family: 'Lato', sans-serif;
+    color: var(--text-color);
+}

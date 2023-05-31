@@ -1,0 +1,74 @@
+.perfil-img img{
+    min-width: 50px;
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.perfil-container{
+    padding-top: 175px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+   
+}
+
+.info-perfil li{
+    padding: 20px;
+}
+
+.info-perfil p{
+    text-align:justify;
+}
+
+button{
+    color: var(--text-button-color);
+    background-color: var(--background-button-color);
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    width: auto;
+}
+
+h1{
+    font-size: 48px;
+}
+
+@media (max-width: 767px){
+    .perfil-container{
+        display: inline;   
+    }
+
+    .contenido{
+        padding: 0;
+        margin: 0;
+        border: none;
+        width: 100%;
+    }
+
+    .info-perfil li{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .info-perfil p{
+        text-align:center;
+    }
+
+    .perfil-img{
+        padding-top: 130px;
+        text-align: center;
+    }
+
+    .perfil-img img{
+        padding: 10px;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+
+}

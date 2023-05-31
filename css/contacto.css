@@ -1,0 +1,15 @@
+.logoContacto img{
+    width: 75px;
+}
+
+.contact-flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contacto{
+    padding: 75px;
+    max-width: 600px;
+    margin: auto;
+}
