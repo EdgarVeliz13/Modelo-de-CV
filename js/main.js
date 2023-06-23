@@ -1,10 +1,17 @@
-const menu = document.querySelector(".menu");
-const openMenuBoton = document.querySelector(".open-menu");
-const closeMenuBoton = document.querySelector(".close-menu");
+let menuItem = document.querySelectorAll(".menu-item");
+menuItem.forEach(function (item){
+    item.addEventListener("click", function(e){
+        const currentItem = document.querySelector(".active");
+        currentItem.classList.remove("active");
+        e.target.classList.add("active");
+    });
+});
 
-function toggleMenu() {
-    menu.classList.toggle("menu_abierto");
-}
-
-openMenuBoton.addEventListener("click", toggleMenu);
-closeMenuBoton.addEventListener("click", toggleMenu);
+// const menuItems = document.querySelectorAll('.menu-item');
+// menuItems.forEach(function (el){
+//     el.addEventListener('click', function(e) {
+//         const currentItem = document.querySelector('.active');
+//         currentItem.classList.remove('active');
+//         e.target.classList.add('active');
+// });
+// });

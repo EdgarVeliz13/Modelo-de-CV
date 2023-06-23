@@ -5,51 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edgar Jose Veliz Marcella</title>
-    <link rel="stylesheet" href="css/menunavbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/perfil.css">
-    <link rel="stylesheet" href="css/skills.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/habilidades.css">
     <link rel="stylesheet" href="css/experiencia.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="nav-conteiner">
-            <div class="nav-items1"> <img src="img/VENTEC2.png" alt="Logo VENTEC"></div>
-            <button class="open-menu"><img src="img/hamburger-icon.svg" alt="abrir menu"></button>
-            <ul class="menu">
-                <button class="close-menu"><img src="img/close-icon.svg" alt="cerrar menu"></button>
-                <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+            <img src="img/VENTEC2.png" alt="Logo VENTEC">
+            <ul class="menu-conteiner">
+                <li class="menu-item"><a href="#perfil" class="active">Perfil</a></li>
+                <li class="menu-item"><a href="#habilidades">Habilidades</a></li>
+                <li class="menu-item"><a href="#experiencia">Experiencia</a></li>
+                <li class="menu-item"><a href="#contacto">Contacto</a></li>
             </ul>
-
         </nav>
     </header>
 
-    <main class="contenido">
-        <section id="perfil" class="perfil-container">
-            <div class="perfil-img"><img src="img/Edgar.jpg" alt="Img Perfil"></div>
-            <ul class="info-perfil">
-                <li><h1>Hola! Soy Edgar</h1></li>
-                <li><p>Ingeniero de Sistemas con dominio en el área de redes, desde el trabajo basico como: cableado
-                estrucctural,
-                colocación de equipos, tendido de fibra óptica, empalmes y armados de cajas NAP´s, hasta la configuración
-                de
-                equipos y diseño de redes. En mi trabajo actual realizo mantenimiento y mejoras en una red óptica GPON
-                diseñada y ejecutada por mi persona.</p></li>
-                <li><p>Proximamente Front-End egresado del proyecto Codigo Latam o mejor conocido como <br> "Codigo Pa´Lante"</p></li>
-                <li><button>Descargar CV</button></li>
-            </ul>
+    <main>
+        <section id="perfil" class="perfil-conteiner">
+            <img src="img/Edgar.jpg" alt="img-perfil">
+            <ul class="perfil-text">
+                <li>
+                    <h1>Hola! Soy Edgar</h1>
+                </li>
+                <li>
+                    <p>Ingeniero de Sistemas con dominio en el área de redes, desde el trabajo basico como: cableado
+                        estrucctural, colocación de equipos, tendido de fibra óptica, empalmes y armados de cajas NAP´s, hasta la configuración
+                        de equipos y diseño de redes. En mi trabajo actual realizo mantenimiento y mejoras en una red óptica GPON
+                        diseñada y ejecutada por mi persona.
+                    </p>
+                    <p>
+                        Proximamente Front-End egresado del proyecto Codigo Latam o mejor conocido como "Codigo Pa´Lante"
+                    </p>
+                </li>
+                <li>
+                    <button><a href="#">Descargar CV</a></button>
+                </li>
+            </ul>  
         </section>
 
-        
         <section id="habilidades" class="habilidades">
-            <h2>Habilidades</h2>
+            <h2 class="skills-title">Habilidades</h2>
             <ul class="skills-container">
                 <li class="skills">Programador Front-End training</li>
                 <li class="skills">Diseñador de redes ópticas XPON</li>
@@ -58,46 +61,38 @@
                 <li class="skills">Capacidad de trabajo en equipo</li>
             </ul>
         </section>
-        
 
         <section id="experiencia" class="experiencia">
             <h2>Hablemos!</h2>
-            <p>En Argentina he tenido diversos trabajos, pero no todos orientados a mi carrera. Les nombrare de 3
-                empresas
-                en la las que he trabajado y podido aplicar conocimientos aprendidos en la universidad.</p>
-            <ul>
-                <li><a class="linkcolor" href="https://killa.com.ar/" target="_blank">Killa Internet y TV</a>, teniendo el cargo de
-                    Supervisor del área técnica.</li>
-                <li><a class="linkcolor" href="https://comtec.ar/" target="_blank">Comtec</a>, asumiendo la tarea de Operador de campo en
-                    distintas empresas mineras.</li>
-                <li><a class="linkcolor" href="https://www.smc-internet.com.ar/" target="_blank">SMC Internet</a>, empresa en la que me
-                    encuentro actualmente como encargado del área técnica.</li>
-            </ul>
+            <p>
+                En Argentina he tenido diversos trabajos, pero no todos orientados a mi carrera. Les nombrare de 3
+                empresas en la las que he trabajado y podido aplicar conocimientos aprendidos en la universidad.
+            </p>
+            <p>
+                <a class="linkcolor" href="https://killa.com.ar/" target="_blank">Killa Internet y TV</a>, teniendo el cargo de
+                Supervisor del área técnica.
+            </p>
+            <p>
+                <a class="linkcolor" href="https://comtec.ar/" target="_blank">Comtec</a>, asumiendo la tarea de Operador de campo en
+                distintas empresas mineras.
+            </p>
+            <p>
+                <a class="linkcolor" href="https://www.smc-internet.com.ar/" target="_blank">SMC Internet</a>, empresa en la que me
+                encuentro actualmente como encargado del área técnica.
+            </p>
         </section>
 
         <section id="contacto" class="contacto">
-            <div class="contact-flex">
-                <div class="logoContacto"><a href="mailto:velizmej@gmail.com" target="_blank"> <img src="img/mail.png" alt="Logo Correo"></a></div>
-                <div class="logoContacto"><a href="https://github.com/EdgarVeliz13" target="_blank"><img src="img/github.png" alt="Logo Github"></a></div>
-                <div class="logoContacto"><a href="https://www.facebook.com/edgarv.13?mibextid=ZbWKwL" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a></div>
-            </div>
+                <div class="logo-contacto"><a href="mailto:velizmej@gmail.com" target="_blank"> <img src="img/mail.png" alt="Logo Correo"></a></div>
+                <div class="logo-contacto"><a href="https://github.com/EdgarVeliz13" target="_blank"><img src="img/github.png" alt="Logo Github"></a></div>
+                <div class="logo-contacto"><a href="https://www.facebook.com/edgarv.13?mibextid=ZbWKwL" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a></div>
         </section>
-
     </main>
-    
+
     <footer>
-        <div class="footer-flex">
-            <img src="img/sobre.png" alt="Correo"><a href="mailto:velizmej@gmail.com" target="_blank">Velizmej@gmail.com</a>
-        </div>
-        <div class="footer-flex">
-            <img src="img/whatsapp.png" alt="Telefono"><a href="https://wa.me/+543874047327" target="_blank">Contactanos</a>
-        </div>
-        <div class="footer-flex">
-            <img src="img/ubicacion.png" alt="Ubicacion"><a href="https://www.google.com/maps/place/Pje.+Ruiz+de+los+Llanos+1414,+Salta/@-24.7918877,-65.4251293,17z/data=!3m1!4b1!4m5!3m4!1s0x941bc3adf7884f73:0xeb6860252bcc1def!8m2!3d-24.7918877!4d-65.4225544" target="_blank">Oficina VENTEC</a>
-        </div>
+        Codigo Latam
     </footer>
 
-
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

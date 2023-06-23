@@ -1,0 +1,22 @@
+.habilidades{
+    
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills{
+    box-shadow: 0px 0px 5px var(--shadow-color);
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.skills-title{
+    margin-top: 120px;
+    padding-bottom: 30px;
+}

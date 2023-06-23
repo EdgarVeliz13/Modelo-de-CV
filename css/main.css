@@ -1,5 +1,3 @@
-/*Declaramos los colores como variables para que podamos
-cambiar el color que queramos sin modificar cada color en el codigo*/
 :root{
     --theme-color: #fbfbfb;
     --text-color: #0f0f0f;
@@ -13,36 +11,54 @@ cambiar el color que queramos sin modificar cada color en el codigo*/
     --link-color: rgb(33, 33, 158);
 }
 
-/* Reset */
-* {
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    box-sizing: border-box;
     line-height: 1.2;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
 
-/* Para quitar los puntos a los items de listas */
-ul {
+section[id]{
+    scroll-margin-top: 100px;
+}
+
+body{
+    margin: auto;
+    background-color: var(--theme-color);
+}
+
+main{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    align-items: center;
+}
+
+ul{
     list-style: none;
 }
 
-/* Para que los enlaces hereden el color de texto y no tengan subrayado */
-a {
+a{
     text-decoration: none;
     color: inherit;
 }
 
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
-main {
-    max-width: 1200px;
-    margin: auto;
+h1{
+    font-size: 36px;
 }
 
-body {
-    background-color: var(--theme-color);
-    font-family: 'Lato', sans-serif;
-    color: var(--text-color);
+h2{
+    font-size: 28px;
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: var(--background-button-color);
+    color: var(--text-button-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
