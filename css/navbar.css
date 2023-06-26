@@ -37,6 +37,7 @@ li.menu-item:hover, li.menu-item a.active{
 
 
 
+
 @media (max-width: 767px){
    
     .nav-conteiner{
@@ -88,7 +89,7 @@ li.menu-item:hover, li.menu-item a.active{
         padding: 29px 40px;
     }
 
-    .menu_opened{
+    .menu_abierto{
         opacity: 1;
         pointer-events: all;
     }
