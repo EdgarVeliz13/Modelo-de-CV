@@ -40,11 +40,11 @@ li.menu-item:hover, li.menu-item a.active{
 
 @media (max-width: 767px){
    
-    .nav-conteiner{
+    /* .nav-conteiner{
         display: flex;
         justify-content: space-between;
         margin: 5px 40px;
-    }
+    } */
     
         
     .menu-conteiner{
