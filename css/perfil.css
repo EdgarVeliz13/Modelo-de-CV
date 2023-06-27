@@ -33,3 +33,15 @@
 .perfil-text button:hover{
     background-color: var(--mobile-text-color);
 }
+
+@media (min-width: 1200px) {
+    .perfil-conteiner{
+       display: flex;
+       align-items: center;
+       padding-top: 130px;
+    }
+
+    .perfil-text{
+        margin: 0 30px;
+    }
+}

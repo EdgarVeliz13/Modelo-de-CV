@@ -9,3 +9,10 @@
     margin-top: 120px;
     margin-bottom: 140px;
 }
+
+@media (min-width: 1200px){
+    .contacto{
+        max-width: 950px;
+        margin: 120px auto;
+    }
+}

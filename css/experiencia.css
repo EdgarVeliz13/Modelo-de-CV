@@ -15,3 +15,10 @@
 .linkcolor{
     color: var(--link-color);
 }
+
+@media (min-width: 1200px) {
+    .experiencia{
+        max-width: 950px;
+        margin: 120px auto;
+    }
+}
