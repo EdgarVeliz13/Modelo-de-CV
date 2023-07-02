@@ -29,5 +29,21 @@ menuItem.forEach(function (item){
 });
 });
 
+// Funcionalidad Dark-Mode 
+const lightMode = document.querySelector(".light-mode");
+const darkMode = document.querySelector(".dark-mode");
 
+lightMode.addEventListener("click", setDarkMode);
+darkMode.addEventListener("click", setlightMode);
 
+function setDarkMode() {
+   setUserTheme("dark");
+}
+
+function setlightMode() {
+   setUserTheme("light");
+}
+
+function setUserTheme(newTheme) {
+    document.documentElement.setAttribute("data-theme", newTheme);
+}

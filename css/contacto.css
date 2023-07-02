@@ -1,6 +1,7 @@
 .logo-contacto img{
     max-width: 75px;
     min-width: 20px;
+    color: var(--text-color);
 }
 
 .contacto{

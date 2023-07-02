@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,16 +16,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="nav-conteiner">
             <img class="logo" src="img/VENTEC2.png" alt="Logo VENTEC">
-            <button class="open-menu">
-                <img src="img/hamburger-icon.svg" alt="abrir menu">
+
+            <button class="dark-mode">
+                <img src="img/sun.svg" alt="Sol">
             </button>
-            <ul class="menu-conteiner" >
+
+            <button class="light-mode">
+                <img src="img/moon.svg" alt="Luna">
+            </button>
+
+            <button class="open-menu">
+                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 14.5H27" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 2H27" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 27H27" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <ul class="menu-conteiner">
                 <button class="close-menu">
-                    <img src="img/close-icon.svg" alt="cerrar menu">
+                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M27 2L2 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M2 2L27 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
                 </button>
                 <li class="menu-item"><a href="#perfil" class="active">Perfil</a></li>
                 <li class="menu-item"><a href="#habilidades">Habilidades</a></li>
@@ -42,19 +65,21 @@
                     <h1>Hola! Soy Edgar</h1>
                 </li>
                 <li>
-                    <p>Ingeniero de Sistemas con dominio en el área de redes, desde el trabajo basico como: cableado
-                        estrucctural, colocación de equipos, tendido de fibra óptica, empalmes y armados de cajas NAP´s, hasta la configuración basica de RB Mikrotik
+                    <p>Ingeniero de Sistemas con dominio en el área de redes, desde el trabajo básico como: cableado
+                        estructural, colocación de equipos, tendido de fibra óptica, empalmes y armados de cajas NAP´s,
+                        hasta la configuración básica de RB Mikrotik
                         y diseño de redes. En mi trabajo actual realizo mantenimiento y mejoras en una red óptica GPON
                         diseñada y ejecutada por mi persona.
                     </p>
                     <p>
-                        Proximamente Front-End egresado del proyecto Codigo Latam o mejor conocido como "Codigo Pa´Lante"
+                        Próximamente Front-End egresado del proyecto Código Latam o mejor conocido como "Código
+                        Pa´Lante"
                     </p>
                 </li>
                 <li>
-                    <button><a href="#">Descargar CV</a></button>
+                    <button><a href="Curriculum.pdf" target="_blank">Descargar CV</a></button>
                 </li>
-            </ul>  
+            </ul>
         </section>
 
         <section id="habilidades" class="habilidades">
@@ -62,7 +87,7 @@
             <ul class="skills-container">
                 <li class="skills">Programador Front-End training</li>
                 <li class="skills">Diseñador de redes ópticas XPON</li>
-                <li class="skills">Gran capacidad de aprendisaje</li>
+                <li class="skills">Gran capacidad de aprendizaje</li>
                 <li class="skills">Alta capacidad resolutiva</li>
                 <li class="skills">Capacidad de trabajo en equipo</li>
             </ul>
@@ -75,23 +100,26 @@
                 empresas en la las que he trabajado y podido aplicar conocimientos aprendidos en la universidad.
             </p>
             <p>
-                <a class="linkcolor" href="https://killa.com.ar/" target="_blank">Killa Internet y TV</a>, teniendo el cargo de
+                <a class="linkcolor" href="https://killa.com.ar/" target="_blank">Killa Internet y TV</a>, teniendo el
+                cargo de
                 Supervisor del área técnica.
             </p>
             <p>
-                <a class="linkcolor" href="https://comtec.ar/" target="_blank">Comtec</a>, asumiendo la tarea de Operador de campo en
+                <a class="linkcolor" href="https://comtec.ar/" target="_blank">Comtec</a>, asumiendo la tarea de
+                Operador de campo en
                 distintas empresas mineras.
             </p>
             <p>
-                <a class="linkcolor" href="https://www.smc-internet.com.ar/" target="_blank">SMC Internet</a>, empresa en la que me
+                <a class="linkcolor" href="https://www.smc-internet.com.ar/" target="_blank">SMC Internet</a>, empresa
+                en la que me
                 encuentro actualmente como encargado del área técnica.
             </p>
         </section>
 
         <section id="contacto" class="contacto">
-                <div class="logo-contacto"><a href="mailto:velizmej@gmail.com" target="_blank"> <img src="img/mail.png" alt="Logo Correo"></a></div>
-                <div class="logo-contacto"><a href="https://github.com/EdgarVeliz13" target="_blank"><img src="img/github.png" alt="Logo Github"></a></div>
-                <div class="logo-contacto"><a href="https://www.facebook.com/edgarv.13?mibextid=ZbWKwL" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a></div>
+            <div class="logo-contacto"><a href="mailto:velizmej@gmail.com" target="_blank"> <img src="img/logo-gmail.png" alt="Logo Correo"> </a></div>
+            <div class="logo-contacto"><a href="https://github.com/EdgarVeliz13" target="_blank"><img src="img/logo-github.png" alt="Logo Github"></a></div>
+            <div class="logo-contacto"><a href="https://www.facebook.com/edgarv.13?mibextid=ZbWKwL" target="_blank"><img src="img/logo-facebook.png" alt="Logo Facebook"></a></div>
         </section>
     </main>
 
@@ -99,6 +127,7 @@
         Codigo Latam
     </footer>
 
-<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

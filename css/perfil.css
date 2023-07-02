@@ -21,6 +21,10 @@
     padding-bottom: 20px;
 }
 
+.perfil-text li{
+    color: var(--text-color);
+}
+
 .perfil-text button{
     border: none;
     background-color: var(--background-button-color);
@@ -43,5 +47,9 @@
 
     .perfil-text{
         margin: 0 30px;
+    }
+
+    h1{
+        font-size: 48px;
     }
 }
